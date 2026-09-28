@@ -136,6 +136,16 @@ menu = st.sidebar.radio(
 if menu == "📊 Tổng quan":
 
     st.title("📊 Tổng quan khách sạn")
+
+    st.image(
+        "VT.jpg",
+        caption="🏨 Khách sạn của chúng tôi",
+        use_container_width=True
+    )
+
+    st.caption("Hệ thống quản lý phòng khách sạn")
+
+    st.title("📊 Tổng quan khách sạn")
     st.caption("Hệ thống quản lý phòng khách sạn")
 
     rooms = query("SELECT * FROM rooms")
