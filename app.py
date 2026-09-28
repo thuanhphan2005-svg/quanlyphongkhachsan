@@ -270,6 +270,9 @@ if not database_ready:
 
     st.stop()
 
+else:
+    st.sidebar.success("✅ MySQL Aiven đã kết nối!")
+
 
 # =========================================================
 # SIDEBAR
